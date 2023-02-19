@@ -1,0 +1,58 @@
+*, ::before, ::after  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.texte{
+    margin: 150px auto;
+    text-align: center;
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.defil{
+    animation: defilTexte 3.5s infinite;
+}
+.defiler{
+    animation: defileTexte 3.5s infinite;
+}
+.a{
+    animation: defilerTexte 3.5s infinite;
+}
+@keyframes defilerTexte{
+    to{  
+        color: rgb(149, 149, 223);
+    }
+}
+@keyframes defilTexte{
+    to{
+        margin-left: 65px;
+        color: rgb(149, 149, 223);
+    }
+}
+@keyframes defileTexte{
+    to{
+        margin-right: 65px;
+        color: rgb(149, 149, 223);
+    }
+}
+.pulse-anims{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    background-color: rgb(149, 149, 223);
+    margin: 150px auto 0;
+    box-shadow: 0 0 0 0 rgb(105, 91, 91);
+    animation: pulse 0.4s infinite;
+}
+
+@keyframes pulse{
+    to {
+        box-shadow: 0 0 0 90px rgba(88, 88, 236, 0.253);
+    }
+}
