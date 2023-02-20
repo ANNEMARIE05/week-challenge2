@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 .texte{
     margin: 150px auto;
@@ -46,9 +47,9 @@
     width: 90px;
     border-radius: 100%;
     background-color: rgb(149, 149, 223);
-    margin: 150px auto 0;
+    margin: 250px auto 0;
     box-shadow: 0 0 0 0 rgb(105, 91, 91);
-    animation: pulse 0.4s infinite;
+    animation: pulse 0.5s infinite;
 }
 
 @keyframes pulse{
